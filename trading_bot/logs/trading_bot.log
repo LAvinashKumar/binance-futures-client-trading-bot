@@ -1,0 +1,98 @@
+2026-05-01 10:15:32 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-01 10:15:32 | DEBUG    | bot.validators | Side validated: BUY
+2026-05-01 10:15:32 | DEBUG    | bot.validators | Order type validated: MARKET
+2026-05-01 10:15:32 | DEBUG    | bot.validators | Quantity validated: 0.01
+2026-05-01 10:15:32 | INFO     | bot.validators | All inputs validated: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 10:15:32 | DEBUG    | bot.client | Binance Futures Testnet client initialised.
+2026-05-01 10:15:32 | INFO     | bot.orders | Placing MARKET BTCUSDT order | payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 10:15:33 | INFO     | bot.orders | Order response for BTCUSDT: {'orderId': 123456, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'avgPrice': '65000.00', 'executedQty': '0.01', 'type': 'MARKET', 'side': 'BUY'}
+2026-05-01 10:15:33 | INFO     | __main__ | Order placed successfully. Order ID: 123456
+2026-05-01 10:22:11 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-01 10:22:11 | DEBUG    | bot.validators | Side validated: SELL
+2026-05-01 10:22:11 | DEBUG    | bot.validators | Order type validated: LIMIT
+2026-05-01 10:22:11 | DEBUG    | bot.validators | Quantity validated: 0.01
+2026-05-01 10:22:11 | DEBUG    | bot.validators | Price validated: 70000.0
+2026-05-01 10:22:11 | INFO     | bot.validators | All inputs validated: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-05-01 10:22:11 | DEBUG    | bot.client | Binance Futures Testnet client initialised.
+2026-05-01 10:22:11 | INFO     | bot.orders | Placing LIMIT BTCUSDT order | payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-05-01 10:22:12 | INFO     | bot.orders | Order response for BTCUSDT: {'orderId': 789012, 'symbol': 'BTCUSDT', 'status': 'NEW', 'avgPrice': '0', 'executedQty': '0', 'type': 'LIMIT', 'side': 'SELL'}
+2026-05-01 10:22:12 | INFO     | __main__ | Order placed successfully. Order ID: 789012
+2026-05-01 10:30:05 | ERROR    | bot.validators | Validation error: Invalid side 'LONG'. Must be one of: BUY, SELL.
+2026-05-01 10:31:44 | ERROR    | bot.validators | Validation error: Price is required for LIMIT orders.
+2026-05-01 10:45:22 | ERROR    | bot.orders | Binance API error placing order for BTCUSDT: status=400, code=-1111, msg=Precision is over the maximum defined for this asset.
+2026-05-01 12:54:07 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-01 12:54:07 | DEBUG    | bot.validators | Side validated: BUY
+2026-05-01 12:54:07 | DEBUG    | bot.validators | Order type validated: MARKET
+2026-05-01 12:54:07 | DEBUG    | bot.validators | Quantity validated: 0.01
+2026-05-01 12:54:07 | INFO     | bot.validators | All inputs validated: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 12:54:07 | DEBUG    | bot.client | Binance Futures Testnet client initialised.
+2026-05-01 12:54:07 | INFO     | bot.orders | Placing MARKET BTCUSDT order | payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 12:54:09 | ERROR    | bot.orders | Binance API error placing order for BTCUSDT: status=401, code=-2015, msg=Invalid API-key, IP, or permissions for action
+2026-05-01 12:54:09 | ERROR    | __main__ | Binance API error [-2015]: Invalid API-key, IP, or permissions for action
+2026-05-01 12:54:53 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-01 12:54:53 | DEBUG    | bot.validators | Side validated: BUY
+2026-05-01 12:54:53 | DEBUG    | bot.validators | Order type validated: MARKET
+2026-05-01 12:54:53 | DEBUG    | bot.validators | Quantity validated: 0.01
+2026-05-01 12:54:53 | INFO     | bot.validators | All inputs validated: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 12:54:53 | DEBUG    | bot.client | Binance Futures Testnet client initialised.
+2026-05-01 12:54:53 | INFO     | bot.orders | Placing MARKET BTCUSDT order | payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 12:54:55 | ERROR    | bot.orders | Binance API error placing order for BTCUSDT: status=401, code=-2015, msg=Invalid API-key, IP, or permissions for action
+2026-05-01 12:54:55 | ERROR    | __main__ | Binance API error [-2015]: Invalid API-key, IP, or permissions for action
+2026-05-01 13:12:19 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-01 13:12:19 | DEBUG    | bot.validators | Side validated: BUY
+2026-05-01 13:12:19 | DEBUG    | bot.validators | Order type validated: MARKET
+2026-05-01 13:12:19 | DEBUG    | bot.validators | Quantity validated: 0.01
+2026-05-01 13:12:19 | INFO     | bot.validators | All inputs validated: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 13:12:19 | DEBUG    | bot.client | Binance Futures Testnet client initialised.
+2026-05-01 13:12:19 | INFO     | bot.orders | Placing MARKET BTCUSDT order | payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 13:12:20 | INFO     | bot.orders | Order response for BTCUSDT: {'orderId': 13095741779, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'W83IAkvW6NukTz4lKzAJFS', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777621340605}
+2026-05-01 13:12:20 | INFO     | __main__ | Order placed successfully. Order ID: 13095741779
+2026-05-01 13:12:25 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-01 13:12:25 | DEBUG    | bot.validators | Side validated: SELL
+2026-05-01 13:12:25 | DEBUG    | bot.validators | Order type validated: LIMIT
+2026-05-01 13:12:25 | DEBUG    | bot.validators | Quantity validated: 0.01
+2026-05-01 13:12:25 | DEBUG    | bot.validators | Price validated: 70000.0
+2026-05-01 13:12:25 | INFO     | bot.validators | All inputs validated: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-05-01 13:12:25 | DEBUG    | bot.client | Binance Futures Testnet client initialised.
+2026-05-01 13:12:25 | INFO     | bot.orders | Placing LIMIT BTCUSDT order | payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-05-01 13:12:27 | ERROR    | bot.orders | Binance API error placing order for BTCUSDT: status=400, code=-4024, msg=Limit price can't be lower than 73183.11.
+2026-05-01 13:12:27 | ERROR    | __main__ | Binance API error [-4024]: Limit price can't be lower than 73183.11.
+2026-05-01 13:13:06 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-01 13:13:06 | DEBUG    | bot.validators | Side validated: SELL
+2026-05-01 13:13:06 | DEBUG    | bot.validators | Order type validated: LIMIT
+2026-05-01 13:13:06 | DEBUG    | bot.validators | Quantity validated: 0.01
+2026-05-01 13:13:06 | DEBUG    | bot.validators | Price validated: 75000.0
+2026-05-01 13:13:06 | INFO     | bot.validators | All inputs validated: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 75000.0, 'timeInForce': 'GTC'}
+2026-05-01 13:13:06 | DEBUG    | bot.client | Binance Futures Testnet client initialised.
+2026-05-01 13:13:06 | INFO     | bot.orders | Placing LIMIT BTCUSDT order | payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 75000.0, 'timeInForce': 'GTC'}
+2026-05-01 13:13:08 | INFO     | bot.orders | Order response for BTCUSDT: {'orderId': 13095744205, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'eORbTxWH9HwewMbymXKjIr', 'price': '75000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777621388257}
+2026-05-01 13:13:08 | INFO     | __main__ | Order placed successfully. Order ID: 13095744205
+2026-05-01 13:20:09 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-01 13:20:09 | DEBUG    | bot.validators | Side validated: BUY
+2026-05-01 13:20:09 | DEBUG    | bot.validators | Order type validated: MARKET
+2026-05-01 13:20:09 | DEBUG    | bot.validators | Quantity validated: 0.01
+2026-05-01 13:20:09 | INFO     | bot.validators | All inputs validated: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 13:20:09 | DEBUG    | bot.client | Binance Futures Testnet client initialised.
+2026-05-01 13:20:09 | INFO     | bot.orders | Placing MARKET BTCUSDT order | payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-01 13:20:11 | INFO     | bot.orders | Order response for BTCUSDT: {'orderId': 13095765281, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'HnGlYI5KLNNe8hvmVUa5w1', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777621812135}
+2026-05-01 13:20:11 | INFO     | __main__ | Order placed successfully. Order ID: 13095765281
+2026-05-01 13:20:12 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-01 13:20:12 | DEBUG    | bot.validators | Side validated: SELL
+2026-05-01 13:20:12 | DEBUG    | bot.validators | Order type validated: LIMIT
+2026-05-01 13:20:12 | DEBUG    | bot.validators | Quantity validated: 0.01
+2026-05-01 13:20:12 | DEBUG    | bot.validators | Price validated: 70000.0
+2026-05-01 13:20:12 | INFO     | bot.validators | All inputs validated: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-05-01 13:20:12 | DEBUG    | bot.client | Binance Futures Testnet client initialised.
+2026-05-01 13:20:12 | INFO     | bot.orders | Placing LIMIT BTCUSDT order | payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-05-01 13:20:14 | ERROR    | bot.orders | Binance API error placing order for BTCUSDT: status=400, code=-4024, msg=Limit price can't be lower than 73224.56.
+2026-05-01 13:20:14 | ERROR    | __main__ | Binance API error [-4024]: Limit price can't be lower than 73224.56.
+2026-05-01 13:21:07 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-01 13:21:07 | DEBUG    | bot.validators | Side validated: SELL
+2026-05-01 13:21:07 | DEBUG    | bot.validators | Order type validated: LIMIT
+2026-05-01 13:21:07 | DEBUG    | bot.validators | Quantity validated: 0.11
+2026-05-01 13:21:07 | DEBUG    | bot.validators | Price validated: 75000.0
+2026-05-01 13:21:07 | INFO     | bot.validators | All inputs validated: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.11, 'price': 75000.0, 'timeInForce': 'GTC'}
+2026-05-01 13:21:07 | DEBUG    | bot.client | Binance Futures Testnet client initialised.
+2026-05-01 13:21:07 | INFO     | bot.orders | Placing LIMIT BTCUSDT order | payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.11, 'price': 75000.0, 'timeInForce': 'GTC'}
+2026-05-01 13:21:08 | INFO     | bot.orders | Order response for BTCUSDT: {'orderId': 13095767702, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'FYY991cjGrlUUAKddBrKV0', 'price': '75000.00', 'avgPrice': '0.00', 'origQty': '0.1100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777621868758}
+2026-05-01 13:21:08 | INFO     | __main__ | Order placed successfully. Order ID: 13095767702
